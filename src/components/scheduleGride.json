@@ -1,0 +1,81 @@
+[
+	{
+		"id" : 1,
+		"supplier" : "ABC Tours",
+		"day" : "Sat", 
+		"time" :  {
+			
+			"time" :[
+				"08","00",
+				"10","00"
+			]
+		},
+		"language" : "English",
+		"starting_service_point" : ["200 Lexigton"],
+		"vahicle_type" : "Mini Van",
+		"meal_plan" : [
+			"Breakfast"
+		],
+		"age_group" : [
+			"adult",
+			"child",
+			"senior"
+		],
+		"active" : true
+	},
+	{
+		"id" : 2,
+		"supplier" : "ABC Tours",
+		"day" : "Sat", 
+		"time" : {
+			"time" :[
+				"08","00",
+				"10","00"
+			]
+		},
+		"language" : "French",
+		"starting_service_point" : ["200 Lexigton"],
+		"vahicle_type" : "Mini Van",
+		"meal_plan" : [
+			"Breakfast",
+			"Lunch"
+		],
+		"age_group" : [
+			"adult",
+			"senior"
+		],
+		"active" : true
+	},
+	{
+		"id" : 3,
+		"supplier" : "ABC Tours",
+		"day" : "Sun", 
+		"time" :{
+			"time" :[
+				"08","00",
+				"10","00"
+			]
+		},
+		"language" : "English",
+		"starting_service_point" : ["690 8th street","200 Lexigton"],
+		"vahicle_type" : "Mini Van",
+		"meal_plan" : [
+			"Breakfast"
+		],
+		"age_group" : [
+			"adult",
+			"child",
+			"senior"
+		],
+		"active" : false, 
+		"dynamicFileds" : [
+			{
+				"configNAme" : "",
+				"configId" : "",
+				"configAttributes" : ["Coach", "MINivan"],
+				"inventoryDEpendent" : true
+			}
+		]
+
+	}
+]

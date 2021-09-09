@@ -1,0 +1,55 @@
+[
+	{
+		"configurationName" : "Supplier",
+		"configurationAttribute" : ["XYZ Travels"],
+		"inventoryDependent" : true
+	},
+	{
+		"configurationName" : "Language",
+		"configurationAttribute" : ["English","French"],
+		"inventoryDependent" : true
+	},
+	{
+		"configurationName" : "Day",
+		"configurationAttribute" : ["Sat","Sun"],
+		"inventoryDependent" : true
+	},
+	{
+		"configurationName" : "Time",
+		"configurationAttribute" : {
+			"attributeNAme" : "Period",
+			"attributeValue" : {
+				"fromHour" : "08",
+				"fromMinute" : "00",
+				"toHour" : "14",
+				"toMinute" : "00"
+			}
+		},
+		"inventoryDependent" : true
+	},
+	{
+		"configurationName" : "StartingServicePoint",
+		"configurationAttribute" : ["690 8th street"],
+		"inventoryDependent" : true
+	},
+	{
+		"configurationName" : "AgeGroup",
+		"configurationAttribute" : ["Adult", "Senior"],
+		"inventoryDependent" : false
+	},
+	{
+		"configurationName" : "ExtraAtributes",
+		"configurationAttribute" : [
+			{
+				"innerConfigurationName" : "Vahicle Type",
+				"innerConfigurationAttribute" : ["Coach"],
+				"innerInventoryDependent" : true
+			},
+			{
+				"innerConfigurationName" : "Meal Plan",
+				"innerConfigurationAttribute" : ["Breackfast", "Lunch", "Breackfast + Lunch"],
+				"innerInventoryDependent" : false
+			}
+		]
+	}
+]
